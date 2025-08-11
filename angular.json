@@ -17,6 +17,9 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
+            "polyfills": [
+  "src/polyfills.ts"
+],
             "allowedCommonJsDependencies": [
               "@firebase/auth-compat",
               "@firebase/firestore",
@@ -31,7 +34,6 @@
            "outputPath": "dist/shuaibiicard/browser",
             "index": "src/index.html",
             "browser": "src/main.ts",
-            "polyfills": ["zone.js"],
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
             "assets": [
