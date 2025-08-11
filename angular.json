@@ -28,7 +28,7 @@
             ],
             "baseHref": "/shuaibiicard/",
             "deployUrl": "/shuaibiicard/",
-            "outputPath": "docs/shuaibiicard",
+           "outputPath": "dist/shuaibiicard",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": ["zone.js"],
