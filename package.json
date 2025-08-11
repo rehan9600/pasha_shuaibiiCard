@@ -4,8 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-     "build": "ng build --configuration production && echo '' > dist/shuaibiicard/.nojekyll",
-    "deploy": "ng build --configuration production && angular-cli-ghpages --dir=dist/shuaibiicard",
+    "build": "ng build --configuration production",
+    "deploy": "ng build --configuration production && echo > dist/shuaibiicard/.nojekyll && angular-cli-ghpages --dir=dist/shuaibiicard",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:shuaibiicard": "node dist/shuaibiicard/server/server.mjs"
